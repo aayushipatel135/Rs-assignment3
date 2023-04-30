@@ -1,0 +1,1024 @@
+
+                  <head>
+                    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/df_style.css') }}">
+                </head>
+                <body>
+                  <table border="1" class="dataframe mystyle">
+<thead>
+  <tr style="text-align: center;">
+    <th></th>
+    <th>Unnamed: 0</th>
+    <th>rating</th>
+    <th>gPlusPlaceId</th>
+    <th>gPlusUserId</th>
+    <th>name</th>
+    <th>userName</th>
+    <th>tags</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <th>0</th>
+    <td>0</td>
+    <td>5.0</td>
+    <td>102398625225928083037</td>
+    <td>100000205979559004579</td>
+    <td>Glazer's Camera</td>
+    <td>Alan Tower</td>
+    <td>Glazer's has been great for professional support. I've gotten backpacks, hard to find Lee filters, studio lighting...all the tools for a great shot on the road or in studio. My latest purchase, an Elinchrom light kit, happened to have a bulb that was defective in the package. They sent me 2 bulbs immediately (arrived next day in Spokane) without charge. The lights are perfect for my needs, and they helped me select the softboxes I got (and their umbrellas) from the many models available. The prices are not that different from on line pricing, and it is worth it for the lessons, advice and direction from a professional. Their stores are well organized and well stocked. Such a difference from what we have in our town. CameraStore AudioVisualEquipment...</td>
+  </tr>
+  <tr>
+    <th>1</th>
+    <td>1</td>
+    <td>5.0</td>
+    <td>102398625225928083037</td>
+    <td>100663373857317823895</td>
+    <td>Glazer's Camera</td>
+    <td>Beverly Davis</td>
+    <td>Great place. We were on vacation in Seattle and needed some accessories for our camera. Checked Glazer's Camera out on the Internet, and used the directions to walk there from the Pike's Market area. They had everything imaginable, and the sales clerk was able to find what we were looking for quickly, and have us on our way. CameraStore AudioVisualEquipment...</td>
+  </tr>
+  <tr>
+    <th>2</th>
+    <td>2</td>
+    <td>5.0</td>
+    <td>102398625225928083037</td>
+    <td>104806891741178233945</td>
+    <td>Glazer's Camera</td>
+    <td>Max D</td>
+    <td>Awesome, lucky to have in Seattle, will be back again. CameraStore AudioVisualEquipment...</td>
+  </tr>
+  <tr>
+    <th>3</th>
+    <td>3</td>
+    <td>2.0</td>
+    <td>115583898367618626397</td>
+    <td>104806891741178233945</td>
+    <td>McDonald's</td>
+    <td>Max D</td>
+    <td>I ordered a sausage mcmuffin and got a stale overnight left over mcmuffin. I'm shocked at the quality of the food at this restaurant. And on a side note, during ordering the cashier was very rude. Won't visit here again. Nuff said FastFoodRestaurant HamburgerRestaurant</td>
+  </tr>
+  <tr>
+    <th>4</th>
+    <td>4</td>
+    <td>5.0</td>
+    <td>102398625225928083037</td>
+    <td>109050202677356770017</td>
+    <td>Glazer's Camera</td>
+    <td>ashleigh baumgardner</td>
+    <td>I have had two shopping experiences at Glazers and they were both great. The sales people were very friendly and quick to let me try things out. They even let me take a couple cameras outside to see how they performed in natural light. The only somewhat negative vibe I got from the place was an unusual old man who was making jokes about the camera I bought being one of the ones that 'fell off the truck.' It was in very poor taste, but obviously not true, the sales girl gave him kind of an indulgent 'you're such a jerk' head shake and smiled at me. My recommendation is to go here and talk to the women, they have been wonderful! CameraStore AudioVisualEquipment...</td>
+  </tr>
+  <tr>
+    <th>5</th>
+    <td>5</td>
+    <td>2.0</td>
+    <td>102756532919400477123</td>
+    <td>109050202677356770017</td>
+    <td>Ivar's Acres of Clams</td>
+    <td>ashleigh baumgardner</td>
+    <td>I didn't actually eat here, so maybe the food is fine, I don't know. What I do know is that the staff was giggly and rude and that the prices on the menu just didn't gel with the food I was seeing around me. When I pointed this out to my party (4) they all agreed and we left. SeafoodRestaurant</td>
+  </tr>
+  <tr>
+    <th>6</th>
+    <td>6</td>
+    <td>5.0</td>
+    <td>114012006595892246521</td>
+    <td>109050202677356770017</td>
+    <td>The Triple Door</td>
+    <td>ashleigh baumgardner</td>
+    <td>I have just visited the triple door for the first time and it was fantastic. I was seeing one of my favorite bands so of course I loved the music. But I was also very impressed with the staff, food, lighting and seating. The theater area has one of the absolute best seating arrangements I have ever seen, no matter where you sit the view is great, I was seeing a double set and was able to sit in two very different locations. I have read a couple negative reviews about the food but ordered a few things and it was all fantastic. I had their pad thai and some chicken satay and a chocolate dessert. All of the food was great and the presentation impeccable, I plan to go back just for the chocolate dessert, unlike anything I have ever had and so very good. And this review is getting pretty long, so I will just say I had a great time and have no idea what the negative reviewers were talking about! Bar JazzClub ConcertHall</td>
+  </tr>
+  <tr>
+    <th>7</th>
+    <td>7</td>
+    <td>5.0</td>
+    <td>113184055751557997763</td>
+    <td>109050202677356770017</td>
+    <td>Feierabend</td>
+    <td>ashleigh baumgardner</td>
+    <td>I had a really good time here for a Thursday happy hour. I didn't think I liked German beer, but I tried three different ones and they were all very nice. I had the deep fried pickles and fries, both very tasty. The staff were helpful and made a point of giving us the 5 minute warning for happy hour rates. Overall a very nice place. GermanRestaurant Pub SportsBar</td>
+  </tr>
+  <tr>
+    <th>8</th>
+    <td>8</td>
+    <td>3.0</td>
+    <td>114132119159920792696</td>
+    <td>109050202677356770017</td>
+    <td>Ye Olde Curiosity Shop</td>
+    <td>ashleigh baumgardner</td>
+    <td>It's a cute place, and worth a visit, but at it's heart just another tourist trap. Maybe I'm jaded because I lived in Seattle. GiftShop SouvenirStore</td>
+  </tr>
+  <tr>
+    <th>9</th>
+    <td>9</td>
+    <td>3.0</td>
+    <td>106891657026449745061</td>
+    <td>109050202677356770017</td>
+    <td>Uma</td>
+    <td>ashleigh baumgardner</td>
+    <td>I tasted their pad thai, pad see ew, and chicken satay. It was all 'meh', definitely not up to the bar that I was expecting based on the other reviews. I also ended up with a terrible migraine a few minutes after leaving that I strongly suspect (but cannot prove) was msg related. Ballard</td>
+  </tr>
+  <tr>
+    <th>10</th>
+    <td>10</td>
+    <td>4.0</td>
+    <td>102398625225928083037</td>
+    <td>110719264043637716066</td>
+    <td>Glazer's Camera</td>
+    <td>Eric Hanchrow</td>
+    <td>The only pro gear store left in town, as far as I know. CameraStore AudioVisualEquipment...</td>
+  </tr>
+  <tr>
+    <th>11</th>
+    <td>11</td>
+    <td>3.0</td>
+    <td>101238935567201658157</td>
+    <td>110719264043637716066</td>
+    <td>Red Mill Burgers</td>
+    <td>Eric Hanchrow</td>
+    <td>I'm particularly fond of the onion burger. HamburgerRestaurant</td>
+  </tr>
+  <tr>
+    <th>12</th>
+    <td>12</td>
+    <td>3.0</td>
+    <td>107201463944293047354</td>
+    <td>110719264043637716066</td>
+    <td>Beth's Cafe</td>
+    <td>Eric Hanchrow</td>
+    <td>Not been there in years, but they serve _breakfast all day_. That's worth a lot! AmericanRestaurant BreakfastRestaurant BrunchRestaurant</td>
+  </tr>
+  <tr>
+    <th>13</th>
+    <td>13</td>
+    <td>4.0</td>
+    <td>104433721076616740273</td>
+    <td>110719264043637716066</td>
+    <td>Serious Pie</td>
+    <td>Eric Hanchrow</td>
+    <td>Pretty good pizza. PizzaRestaurant EuropeanRestaurant ItalianRestaurant</td>
+  </tr>
+  <tr>
+    <th>14</th>
+    <td>14</td>
+    <td>5.0</td>
+    <td>114134467411550552908</td>
+    <td>110719264043637716066</td>
+    <td>Din Tai Fung Restaurant</td>
+    <td>Eric Hanchrow</td>
+    <td>Delicious! Very crowded on Friday night. TaiwaneseRestaurant</td>
+  </tr>
+  <tr>
+    <th>15</th>
+    <td>15</td>
+    <td>5.0</td>
+    <td>105261878497200312189</td>
+    <td>110719264043637716066</td>
+    <td>La Carta De Oaxaca</td>
+    <td>Eric Hanchrow</td>
+    <td>No attitude, either. A line formed at the door before they opened, but once we got in, we were waited on quickly. Food was unusually tasty! MexicanRestaurant LatinAmericanRestaurant</td>
+  </tr>
+  <tr>
+    <th>16</th>
+    <td>16</td>
+    <td>4.0</td>
+    <td>117632549201615648400</td>
+    <td>110719264043637716066</td>
+    <td>The Capital Grille</td>
+    <td>Eric Hanchrow</td>
+    <td>Great bartender. SteakHouse SeafoodRestaurant</td>
+  </tr>
+  <tr>
+    <th>17</th>
+    <td>17</td>
+    <td>5.0</td>
+    <td>118013553962568531905</td>
+    <td>110719264043637716066</td>
+    <td>Broiler Bay</td>
+    <td>Eric Hanchrow</td>
+    <td>I've been getting cheesesteaks here, on and off, for over ten years. HamburgerRestaurant FastFoodRestaurant</td>
+  </tr>
+  <tr>
+    <th>18</th>
+    <td>18</td>
+    <td>3.0</td>
+    <td>100271611979697385440</td>
+    <td>110719264043637716066</td>
+    <td>Brave Horse Tavern</td>
+    <td>Eric Hanchrow</td>
+    <td>Surprisingly good. AmericanRestaurant</td>
+  </tr>
+  <tr>
+    <th>19</th>
+    <td>19</td>
+    <td>4.0</td>
+    <td>108873919749068044081</td>
+    <td>110719264043637716066</td>
+    <td>Smash Wine Bar &amp; Bistro</td>
+    <td>Eric Hanchrow</td>
+    <td>Free wine! Apparently every Wednesday they bring you a bit of wine to taste. WineBar Bistro</td>
+  </tr>
+  <tr>
+    <th>20</th>
+    <td>20</td>
+    <td>5.0</td>
+    <td>117632955906663113738</td>
+    <td>110719264043637716066</td>
+    <td>Cafe Lago</td>
+    <td>Eric Hanchrow</td>
+    <td>Best pasta I've ever had. ItalianRestaurant PizzaRestaurant EuropeanRestaurant</td>
+  </tr>
+  <tr>
+    <th>21</th>
+    <td>21</td>
+    <td>4.0</td>
+    <td>115973925430161069837</td>
+    <td>110719264043637716066</td>
+    <td>Ferris' Upstairs Oyster Bar</td>
+    <td>Eric Hanchrow</td>
+    <td>Wandered in once, sat at the bar, and had a surprisingly pleasant time. SeafoodRestaurant</td>
+  </tr>
+  <tr>
+    <th>22</th>
+    <td>22</td>
+    <td>3.0</td>
+    <td>102672859519725109136</td>
+    <td>110719264043637716066</td>
+    <td>Lunchbox Laboratory</td>
+    <td>Eric Hanchrow</td>
+    <td>Fine, but not worth the money and the wait. AmericanRestaurant FastFoodRestaurant HamburgerRestaurant</td>
+  </tr>
+  <tr>
+    <th>23</th>
+    <td>23</td>
+    <td>4.0</td>
+    <td>102736513044839404754</td>
+    <td>110719264043637716066</td>
+    <td>Zig Zag Cafe</td>
+    <td>Eric Hanchrow</td>
+    <td>Had a strikingly good "mafalde bolognese". Bar CocktailBar</td>
+  </tr>
+  <tr>
+    <th>24</th>
+    <td>24</td>
+    <td>5.0</td>
+    <td>116017348856716904632</td>
+    <td>110719264043637716066</td>
+    <td>Teatro Zinzanni</td>
+    <td>Eric Hanchrow</td>
+    <td>Much better than I'd expected. Sillier, too. Circus FineDiningRestaurant DinnerTheater</td>
+  </tr>
+  <tr>
+    <th>25</th>
+    <td>25</td>
+    <td>4.0</td>
+    <td>109529766964370609146</td>
+    <td>110719264043637716066</td>
+    <td>Facing East Restaurant</td>
+    <td>Eric Hanchrow</td>
+    <td>Fast. Delicious. I got oysters in black bean sauce. TaiwaneseRestaurant AsianRestaurant</td>
+  </tr>
+  <tr>
+    <th>26</th>
+    <td>26</td>
+    <td>4.0</td>
+    <td>117129954280048063670</td>
+    <td>110719264043637716066</td>
+    <td>VoilÃ ! Bistrot</td>
+    <td>Eric Hanchrow</td>
+    <td>Was in here once years ago... friendly bartender and good beer selection FrenchRestaurant</td>
+  </tr>
+  <tr>
+    <th>27</th>
+    <td>27</td>
+    <td>2.0</td>
+    <td>106638317851967567953</td>
+    <td>110719264043637716066</td>
+    <td>Elysian Fields</td>
+    <td>Eric Hanchrow</td>
+    <td>Strikingly bad food. Brewery Brewpub</td>
+  </tr>
+  <tr>
+    <th>28</th>
+    <td>28</td>
+    <td>3.0</td>
+    <td>109751803298803769806</td>
+    <td>110719264043637716066</td>
+    <td>Piecora's Pizza</td>
+    <td>Eric Hanchrow</td>
+    <td>Crispy crust -- not my thing PizzaRestaurant EuropeanRestaurant ItalianRestaurant</td>
+  </tr>
+  <tr>
+    <th>29</th>
+    <td>29</td>
+    <td>4.0</td>
+    <td>104583331170892946349</td>
+    <td>110719264043637716066</td>
+    <td>TAT'S Delicatessen</td>
+    <td>Eric Hanchrow</td>
+    <td>Yum. Very crowded at lunch. AmericanRestaurant Deli</td>
+  </tr>
+  <tr>
+    <th>30</th>
+    <td>30</td>
+    <td>3.0</td>
+    <td>117771646610205195895</td>
+    <td>110719264043637716066</td>
+    <td>Tap House Grill</td>
+    <td>Eric Hanchrow</td>
+    <td>I'm always surprised by how much I like this place-- it's noisy, and feels like a chain; but the excellent beer selection and the friendly waitstaff win me over. EclecticRestaurant Bar&amp;Grill Catering</td>
+  </tr>
+  <tr>
+    <th>31</th>
+    <td>31</td>
+    <td>4.0</td>
+    <td>113429982747590713770</td>
+    <td>110719264043637716066</td>
+    <td>Metropolitan Grill</td>
+    <td>Eric Hanchrow</td>
+    <td>Just a great traditional steakhouse. My only complaint: no dry-aged beef at lunch. SteakHouse BanquetHall Bar&amp;Grill</td>
+  </tr>
+  <tr>
+    <th>32</th>
+    <td>32</td>
+    <td>3.0</td>
+    <td>115988591276242717803</td>
+    <td>110719264043637716066</td>
+    <td>Issian</td>
+    <td>Eric Hanchrow</td>
+    <td>Char-siu pork: surprisingly delicious. JapaneseRestaurant AsianRestaurant SushiRestaurant</td>
+  </tr>
+  <tr>
+    <th>33</th>
+    <td>33</td>
+    <td>4.0</td>
+    <td>107998357203106661934</td>
+    <td>110719264043637716066</td>
+    <td>May Restaurant and Lounge</td>
+    <td>Eric Hanchrow</td>
+    <td>Nicer than your generic Thai place. ThaiRestaurant AsianRestaurant SoutheastAsianRestaurant</td>
+  </tr>
+  <tr>
+    <th>34</th>
+    <td>34</td>
+    <td>4.0</td>
+    <td>100123772543288714500</td>
+    <td>110719264043637716066</td>
+    <td>Beecher's Handmade Cheese - Pike Place Market</td>
+    <td>Eric Hanchrow</td>
+    <td>Was just there a few days ago; got perhaps the best grilled-cheese sandwich I'd ever had. AmericanRestaurant CheeseShop Deli</td>
+  </tr>
+  <tr>
+    <th>35</th>
+    <td>35</td>
+    <td>4.0</td>
+    <td>108860942137155027459</td>
+    <td>110719264043637716066</td>
+    <td>Dahlia Lounge</td>
+    <td>Eric Hanchrow</td>
+    <td>Only been there a few times, but the food is very good. PacificNorthwestRestaurant... SeafoodRestaurant Bakery</td>
+  </tr>
+  <tr>
+    <th>36</th>
+    <td>36</td>
+    <td>4.0</td>
+    <td>110298420970956489581</td>
+    <td>110719264043637716066</td>
+    <td>Il Terrazzo Carmine</td>
+    <td>Eric Hanchrow</td>
+    <td>Disappointing beer list. ItalianRestaurant EuropeanRestaurant</td>
+  </tr>
+  <tr>
+    <th>37</th>
+    <td>37</td>
+    <td>3.0</td>
+    <td>106223775770369286449</td>
+    <td>110719264043637716066</td>
+    <td>Pagliacci Pizzeria</td>
+    <td>Eric Hanchrow</td>
+    <td>Not much for atmosphere, but great pizza. PizzaRestaurant EuropeanRestaurant ItalianRestaurant</td>
+  </tr>
+  <tr>
+    <th>38</th>
+    <td>38</td>
+    <td>2.0</td>
+    <td>117061363341116726628</td>
+    <td>110719264043637716066</td>
+    <td>Ooba Tooba</td>
+    <td>Eric Hanchrow</td>
+    <td>Not bad, but nothing special either. MexicanRestaurant LatinAmericanRestaurant</td>
+  </tr>
+  <tr>
+    <th>39</th>
+    <td>39</td>
+    <td>2.0</td>
+    <td>117448487621189666903</td>
+    <td>110719264043637716066</td>
+    <td>Lowell's Restaurant</td>
+    <td>Eric Hanchrow</td>
+    <td>Overpriced. AmericanRestaurant SeafoodRestaurant Bar&amp;Grill</td>
+  </tr>
+  <tr>
+    <th>40</th>
+    <td>40</td>
+    <td>2.0</td>
+    <td>112009595707850274910</td>
+    <td>110719264043637716066</td>
+    <td>Trophy Cupcakes &amp; Party</td>
+    <td>Eric Hanchrow</td>
+    <td>They're, er, cupcakes. For like $2.50 apiece. I don't get it. RestaurantorCafe GreetingCardShop PartyStore</td>
+  </tr>
+  <tr>
+    <th>41</th>
+    <td>41</td>
+    <td>5.0</td>
+    <td>112004611378069763201</td>
+    <td>110719264043637716066</td>
+    <td>Kabul Afghan Cuisine</td>
+    <td>Eric Hanchrow</td>
+    <td>Possibly my favorite restaurant in Seattle. _Fantastic_ food, friendly service, reasonable prices, nice atmosphere. AfghaniRestaurant AsianRestaurant VegetarianRestaurant</td>
+  </tr>
+  <tr>
+    <th>42</th>
+    <td>42</td>
+    <td>2.0</td>
+    <td>107575770542870145795</td>
+    <td>110719264043637716066</td>
+    <td>Five Guys Burgers and Fries</td>
+    <td>Eric Hanchrow</td>
+    <td>Loud loud loud. Unremarkable burger. Bizarrely and annoyingly cheerful servers. HamburgerRestaurant</td>
+  </tr>
+  <tr>
+    <th>43</th>
+    <td>43</td>
+    <td>4.0</td>
+    <td>117782218105444446069</td>
+    <td>110719264043637716066</td>
+    <td>O'connor's</td>
+    <td>Eric Hanchrow</td>
+    <td>Great maple-bacon hash. Restaurant</td>
+  </tr>
+  <tr>
+    <th>44</th>
+    <td>44</td>
+    <td>4.0</td>
+    <td>110252895643012472356</td>
+    <td>110719264043637716066</td>
+    <td>Papa Razzi</td>
+    <td>Eric Hanchrow</td>
+    <td>Wonderful surroundings; good food, good service. PizzaRestaurant EuropeanRestaurant Bar</td>
+  </tr>
+  <tr>
+    <th>45</th>
+    <td>45</td>
+    <td>2.0</td>
+    <td>117085273663840018849</td>
+    <td>110719264043637716066</td>
+    <td>Bakeman's Restaurant</td>
+    <td>Eric Hanchrow</td>
+    <td>deliberately-abusive counterman. Some may be amused, but I wasn't. SandwichShop Deli Caterer</td>
+  </tr>
+  <tr>
+    <th>46</th>
+    <td>46</td>
+    <td>5.0</td>
+    <td>118025830872162432890</td>
+    <td>110719264043637716066</td>
+    <td>Pagliacci Pizza</td>
+    <td>Eric Hanchrow</td>
+    <td>Best pizza I know of, great service. Unbeatable. Beverages TakeoutRestaurant DeliveryRestaurant</td>
+  </tr>
+  <tr>
+    <th>47</th>
+    <td>47</td>
+    <td>4.0</td>
+    <td>116101693201080420847</td>
+    <td>110719264043637716066</td>
+    <td>Samurai Noodle</td>
+    <td>Eric Hanchrow</td>
+    <td>Just like the place in the I-district: addicitively delicious food. The "Tetsu Hellfire" is my favorite. AsianRestaurant JapaneseRestaurant SushiRestaurant</td>
+  </tr>
+  <tr>
+    <th>48</th>
+    <td>48</td>
+    <td>4.0</td>
+    <td>103328214481892806528</td>
+    <td>110719264043637716066</td>
+    <td>Park Kitchen</td>
+    <td>Eric Hanchrow</td>
+    <td>Had a drink and a snack at the bar--very classy. PacificNorthwestRestaurant... AmericanRestaurant OrganicRestaurant</td>
+  </tr>
+  <tr>
+    <th>49</th>
+    <td>49</td>
+    <td>4.0</td>
+    <td>103598356985705218164</td>
+    <td>110719264043637716066</td>
+    <td>De Luxe Bar &amp; Grill</td>
+    <td>Eric Hanchrow</td>
+    <td>Good waitress and host. Tasty burger. HamburgerRestaurant AmericanRestaurant Bar&amp;Grill</td>
+  </tr>
+  <tr>
+    <th>50</th>
+    <td>50</td>
+    <td>3.0</td>
+    <td>105823434109808138348</td>
+    <td>110719264043637716066</td>
+    <td>SATAY</td>
+    <td>Eric Hanchrow</td>
+    <td>Showed up at lunch time and got spicy Mee Goring. Restaurant</td>
+  </tr>
+  <tr>
+    <th>51</th>
+    <td>51</td>
+    <td>2.0</td>
+    <td>102847155463964513963</td>
+    <td>110719264043637716066</td>
+    <td>Molly Moon's Homemade Ice Cream</td>
+    <td>Eric Hanchrow</td>
+    <td>Haughty service. DessertRestaurant DessertShop IceCreamShop</td>
+  </tr>
+  <tr>
+    <th>52</th>
+    <td>52</td>
+    <td>4.0</td>
+    <td>114271460339126899529</td>
+    <td>110719264043637716066</td>
+    <td>Etta's</td>
+    <td>Eric Hanchrow</td>
+    <td>... and I'm not even a seafood fan SeafoodRestaurant</td>
+  </tr>
+  <tr>
+    <th>53</th>
+    <td>53</td>
+    <td>2.0</td>
+    <td>109080885824878487017</td>
+    <td>110719264043637716066</td>
+    <td>T-Mobile</td>
+    <td>Eric Hanchrow</td>
+    <td>Went in once, to ask a question. The 12-year-old girls behind the counter ignored me. Granted, they were helping other customers, but in the 10 minutes I waited, neither of them so much as made eye contact, let alone said "Be with you in a minute". CellPhoneStore TelephoneCompany</td>
+  </tr>
+  <tr>
+    <th>54</th>
+    <td>54</td>
+    <td>3.0</td>
+    <td>111141200905905839968</td>
+    <td>110719264043637716066</td>
+    <td>Julia's of Wallingford</td>
+    <td>Eric Hanchrow</td>
+    <td>I'm always underwhelmed when I eat here. AmericanRestaurant VeganRestaurant</td>
+  </tr>
+  <tr>
+    <th>55</th>
+    <td>55</td>
+    <td>5.0</td>
+    <td>103346674160197763362</td>
+    <td>110719264043637716066</td>
+    <td>La BÃªte</td>
+    <td>Eric Hanchrow</td>
+    <td>Been here three or four times; great each time. PacificNorthwestRestaurant... AmericanRestaurant</td>
+  </tr>
+  <tr>
+    <th>56</th>
+    <td>56</td>
+    <td>4.0</td>
+    <td>105179530518822433868</td>
+    <td>110719264043637716066</td>
+    <td>Pasta &amp; Co</td>
+    <td>Eric Hanchrow</td>
+    <td>Remarkably good frozen food Deli Restaurant</td>
+  </tr>
+  <tr>
+    <th>57</th>
+    <td>57</td>
+    <td>5.0</td>
+    <td>114997866993807163024</td>
+    <td>110719264043637716066</td>
+    <td>Varsity Inn Restaurant</td>
+    <td>Eric Hanchrow</td>
+    <td>All-time favorite breakfast place Restaurant</td>
+  </tr>
+  <tr>
+    <th>58</th>
+    <td>58</td>
+    <td>3.0</td>
+    <td>109577597053449018961</td>
+    <td>110719264043637716066</td>
+    <td>Pho Bac</td>
+    <td>Eric Hanchrow</td>
+    <td>Great grilled pork sandwich -- as with most Vietnamese places, the bread is very fresh. VietnameseRestaurant AsianRestaurant SoutheastAsianRestaurant</td>
+  </tr>
+  <tr>
+    <th>59</th>
+    <td>59</td>
+    <td>4.0</td>
+    <td>101980078379602326177</td>
+    <td>110719264043637716066</td>
+    <td>Kozue</td>
+    <td>Eric Hanchrow</td>
+    <td>I probably favor it because it's close to my house, but still, it's homey and charming. JapaneseRestaurant AsianRestaurant SushiRestaurant</td>
+  </tr>
+  <tr>
+    <th>60</th>
+    <td>60</td>
+    <td>2.0</td>
+    <td>106372390961519275008</td>
+    <td>110719264043637716066</td>
+    <td>Tutta Bella Neapolitan Pizzeria - Stone Way</td>
+    <td>Eric Hanchrow</td>
+    <td>Nothing horribly wrong; I was just underwhelmed by the food. And it was pretty loud in there, too; there are no rugs on the floor, and so voices echo. PizzaRestaurant ItalianRestaurant Bar</td>
+  </tr>
+  <tr>
+    <th>61</th>
+    <td>61</td>
+    <td>5.0</td>
+    <td>113434941359905012040</td>
+    <td>110719264043637716066</td>
+    <td>Santa Fe Cafe</td>
+    <td>Eric Hanchrow</td>
+    <td>Just an old favorite place. MexicanRestaurant LatinAmericanRestaurant</td>
+  </tr>
+  <tr>
+    <th>62</th>
+    <td>62</td>
+    <td>3.0</td>
+    <td>110656619029309757109</td>
+    <td>110719264043637716066</td>
+    <td>Citrus Thai Restaurant</td>
+    <td>Eric Hanchrow</td>
+    <td>Loved the red curry. But then, I always love red curry. AsianRestaurant SoutheastAsianRestaurant ThaiRestaurant</td>
+  </tr>
+  <tr>
+    <th>63</th>
+    <td>63</td>
+    <td>4.0</td>
+    <td>117486630345580023092</td>
+    <td>110719264043637716066</td>
+    <td>Philadelphia Fevre Steak &amp; Hoagie Shop</td>
+    <td>Eric Hanchrow</td>
+    <td>Reasonably authentic, _and_ good (those two things aren't necessarily the same). SteakHouse FastFoodRestaurant SandwichShop</td>
+  </tr>
+  <tr>
+    <th>64</th>
+    <td>64</td>
+    <td>4.0</td>
+    <td>108319028084779142967</td>
+    <td>110719264043637716066</td>
+    <td>Christopher's On Whidbey LLP</td>
+    <td>Eric Hanchrow</td>
+    <td>I've only been there a few times, but enjoyed it. A little on the fancy side (for me, anyway) but not off-putting. Pleasant and fast service. Restaurant PacificNorthwestRestaurant...</td>
+  </tr>
+  <tr>
+    <th>65</th>
+    <td>65</td>
+    <td>2.0</td>
+    <td>116415250260713785072</td>
+    <td>110719264043637716066</td>
+    <td>BevMo!</td>
+    <td>Eric Hanchrow</td>
+    <td>Price tag: $40.99. Actual price at the register: $52. Not for me. LiquorStore</td>
+  </tr>
+  <tr>
+    <th>66</th>
+    <td>66</td>
+    <td>2.0</td>
+    <td>102398625225928083037</td>
+    <td>113900468619937712715</td>
+    <td>Glazer's Camera</td>
+    <td>Roland Ayala</td>
+    <td>Glazer's is supposedly "the place to go" for camera gear in Seattle area but my experiences differ and I would recommend a friend against going there. In the process of deciding upon and purchasing a prosumer camera the sales experience felt hurried. While happy with the camera, I've come to discover things about the camera as informed by the salesperson that are flat out wrong or inaccurate. A significant selling point of buying from Glazers and the camera I ultimately chose (Sony A99) was the large availability of rental lenses -- as informed by salesperson. Only when I later called to rent a lens the first thing informed by the rental department was very low availability of Sony mount lenses, stating Sony is not a long established brand. In another incident I called my camera salesperson about availability of LED light kits. Again, I felt rushed and he encouraged me to visit the store because they have many LED lights available in stock. He referred me to their lighting person. I made the trip over from Eastside only to find they had very few models available, none of which worked for me (a very low-end, cheap consumer model and a couple very high-end / too large models). I ended-up going to Talls in Bellevue and they had exactly what I was looking for. Annoyed because Talls is much closer to me, I called Glazers and asked for the manager to describe my experience but got only voicemail. I left a message but Glazers has yet to call me back. (It's been a couple months now as I write this so safe to assume I'll never hear back.) It's fascinating to me that Talls -- a mall camera store -- has consistently given me far better service and information than the highly rated Glazers. It makes me wonder if Glazers is simply 'the cool' place to go among professionals and serious amateurs. Such associations are unimportant to me and I'd rather give my business to businesses that take the time to help me make well informed decisions, and that value my time and business. In my experience Glazers is not that place. CameraStore AudioVisualEquipment...</td>
+  </tr>
+  <tr>
+    <th>67</th>
+    <td>67</td>
+    <td>4.0</td>
+    <td>102398625225928083037</td>
+    <td>114326665400106175285</td>
+    <td>Glazer's Camera</td>
+    <td>Roddy Chung</td>
+    <td>The Glazer's Camera main store has excellent service. But the lighting and supplies store has the worst of all. I walked in a lot of times and they NEVER greeted me. They have 2-3 employees standing around the cashier but never come to you and ask if you need any help. And even if I came up to any of them. Their response were minimal and just acted like they did not care at all. And they closed earlier than the displayed store hours which is ridiculous. CameraStore AudioVisualEquipment...</td>
+  </tr>
+  <tr>
+    <th>68</th>
+    <td>68</td>
+    <td>5.0</td>
+    <td>110864889964667973890</td>
+    <td>100000524810171549476</td>
+    <td>Delivered Dish | Portland, OR</td>
+    <td>Chris Johnson</td>
+    <td>Because they get it right every time. Love you guys. DeliveryRestaurant EventPlanner BusinesstoBusinessService</td>
+  </tr>
+  <tr>
+    <th>69</th>
+    <td>69</td>
+    <td>5.0</td>
+    <td>118154383123752939812</td>
+    <td>100000524810171549476</td>
+    <td>Bluehour</td>
+    <td>Chris Johnson</td>
+    <td>They have worked miracles for me trying to cater to that big-azz agency upstairs on a moment's notice. Love love love them. NewAmericanRestaurant MediterraneanRestaurant</td>
+  </tr>
+  <tr>
+    <th>70</th>
+    <td>70</td>
+    <td>1.0</td>
+    <td>110864889964667973890</td>
+    <td>100537426867747151661</td>
+    <td>Delivered Dish | Portland, OR</td>
+    <td>Allison Lea</td>
+    <td>DO NOT USE THIS SERVICE! My order this evening showed up 1 hour and 20 minutes after the promised delivery time and was cold, soggy and not even editable! With the fees added I paid for my meal and an extra $16 to not be able to eat my meal that arrived 2.5 hours after I placed the order. Also they will call you when your order should be at your door and tell you the driver is still at the restaurant, which they apparently see as an acceptable substitute for delivery of the actual food. DeliveryRestaurant EventPlanner BusinesstoBusinessService</td>
+  </tr>
+  <tr>
+    <th>71</th>
+    <td>71</td>
+    <td>4.0</td>
+    <td>106385551189682750352</td>
+    <td>100537426867747151661</td>
+    <td>Olympic Provisions</td>
+    <td>Allison Lea</td>
+    <td>The prime rib was to die for! The lamb was also very good. Try the French board, delicious! This place was not as busy as it should have been on a Friday night. Great service, and excellent food, gives other places in the Portland area a run for their money! PacificNorthwestRestaurant...</td>
+  </tr>
+  <tr>
+    <th>72</th>
+    <td>72</td>
+    <td>2.0</td>
+    <td>110864889964667973890</td>
+    <td>101662041061690318661</td>
+    <td>Delivered Dish | Portland, OR</td>
+    <td>Tony Scarcella</td>
+    <td>over a 3 year period ongoing terrible customer service. wrong orders. late orders. bad food (smelly sushi once), confusion, constant struggle with menus and pricing. operation ineptitude at it's worst. then, they fire me as a customer because i call them out on it saying "we were verbally abusive". huh? there are competitors and they will grow, hopefully. buyer beware. I'll rethink this one if the owner get's back to me. not holding my breath. DeliveryRestaurant EventPlanner BusinesstoBusinessService</td>
+  </tr>
+  <tr>
+    <th>73</th>
+    <td>73</td>
+    <td>1.0</td>
+    <td>110864889964667973890</td>
+    <td>105608513775015690240</td>
+    <td>Delivered Dish | Portland, OR</td>
+    <td>Derek Espinoza</td>
+    <td>They were late by over half an hour. I like how the person calls me 25 minutes after the food is supposed to be here, saying the driver is still waiting at the restaurant. I wish they would have told me that before the order was supposed to be here. I would have cancelled and gotten something else. Probably never using them again. Update. Actually took an hour from when the guy called in saying they would be at my house soon. Changed from 2 stars to 1. DeliveryRestaurant EventPlanner BusinesstoBusinessService</td>
+  </tr>
+  <tr>
+    <th>74</th>
+    <td>74</td>
+    <td>2.0</td>
+    <td>110864889964667973890</td>
+    <td>111197973120418964998</td>
+    <td>Delivered Dish | Portland, OR</td>
+    <td>Jim Lewis</td>
+    <td>We placed an order at 6:22 p.m. on the company's website. At that time, we received an email from the company confirming they received our order, a summary of our order, a receipt for our purchase, and to let us know it was on it's way. 2 hours later we called, wondering where our order was, and they said we hadn't ordered anything for a month or two. I said, "Well then where did I get this email from you tonight at 6:22 with a full summary of my order and assurance it was on it's way?" He said, "Well we didn't get that." "What do you mean, 'we didn't get that'? I have the email from you right here in front of me!" He explained that they had been having some problems with their website and some orders weren't coming through. So we ended up getting our meal - over 3 hours after we ordered it - with not even an apology for being late. They were nice enough to take off $8.00 from our order. But that was hardly sufficient. I would have rather they gave me a sincere apology rather than the smug comments I got. I felt the phone rep was extremely rude, didn't seem to care at all that we had been waiting hours to eat, acted like it wasn't their fault, and offered little to help me other than he could try to get an order placed and sent over to me as soon as possible. It was an absolutely horrible experience. To make matters worse, we were FORCED to pay a 15% tip! Is it really a tip when it's compulsory???? Poor business practices, horrible delivery time, and very poor customer service. It seems that this company could care less about pleasing their customers. Definitely not representative of the Better Business Bureau. DeliveryRestaurant EventPlanner BusinesstoBusinessService</td>
+  </tr>
+  <tr>
+    <th>75</th>
+    <td>75</td>
+    <td>5.0</td>
+    <td>103098890515655412119</td>
+    <td>111197973120418964998</td>
+    <td>Pine Shed Ribs and Barbecue</td>
+    <td>Jim Lewis</td>
+    <td>Flying first class to Vegas, driving a new Corvette, smoking a fine cigar, sipping a nice glass of champagne, sitting in the sun by a swimming pool....all things that are not quite as good as eating the smoked brisket at Pine Shed BBQ! OH MY GOODNESS! Best grub in town! BarbecueRestaurant</td>
+  </tr>
+  <tr>
+    <th>76</th>
+    <td>76</td>
+    <td>5.0</td>
+    <td>118378296490159152223</td>
+    <td>111197973120418964998</td>
+    <td>El Gaucho Portland</td>
+    <td>Jim Lewis</td>
+    <td>Absolutely amazing food and the service is even better!!! My favorite restaurant in Portland, by a long shot. SteakHouse FineDiningRestaurant Cafe</td>
+  </tr>
+  <tr>
+    <th>77</th>
+    <td>77</td>
+    <td>2.0</td>
+    <td>108345837887407797507</td>
+    <td>111197973120418964998</td>
+    <td>Jimmy John's Gourmet Sandwiches</td>
+    <td>Jim Lewis</td>
+    <td>Bad Experience this time.... I love Jimmy' John's sandwiches in general. And the sandwich I got today was great too. My complaint is the restaurant was WAY TOO COLD. I couldn't even sit down to enjoy my sandwich. And I'm usually the one complaining that places too hot! I had to go back to my car and grab my jacket just to make it bearable. I noticed I wasn't the only one bundled up and wearing a jacket. Everyone else there was too. You shouldn't have to wear a jacket in a restaurant. By the time I finished my sandwich and drink, I was back to shivering again. I wanted to stay and read for a little while while I waited for a friend. But even with a warm jacket on, it was still so unbearably cold that I just left and told my friend to meet me somewhere else. A restaurant needs to make the experience pleasant, otherwise it doesn't matter how great the food is. Restaurant FastFoodRestaurant SandwichShop</td>
+  </tr>
+  <tr>
+    <th>78</th>
+    <td>78</td>
+    <td>2.0</td>
+    <td>110848400252529862905</td>
+    <td>111197973120418964998</td>
+    <td>Sushi Hana</td>
+    <td>Jim Lewis</td>
+    <td>The place was busy when I arrived. No seats available at the "track" so I sat in the booth. I got harassed a little because I was by myself, taking up a whole booth. But I wasn't going to sit elbow-to-elbow with other people right next to me. So there was no choice but the booth. They probably need to learn not to harass good paying customers. Aside from that, there were several things that bothered me. First, every 4th plate was sliced up pieces of watermelon. Not sure why there was watermelon in early March but whatever. The problem is that it looks almost exactly like slices of Tuna. Only AFTER you've pulled it off the belt do you realize that you're going to be eating FRUIT and not sushi. In general, there was WAY too much fruit on the track anyway. Blueberries, strawberries, Melons, and more. I came to eat Sushi and I don't mind having some fruit available too. But there was way too much Fruit and not enough Sushi. They had no Tuna on the entire track. So I had to ask for that. Which, in my opinion, is pathetic. That should always be out and available at a sushi place. No smoked salmon either. When I did ask for smoked salmon, I was provided with a plate of CHOPPED UP smoked salmon. Not quite how I usually get it at other places, but it did taste pretty good. I just don't like it all chopped up. It made it look like dog food. The tamago (egg omelet) was WAY too sweet. And I questioned if it was made there or came from a box. Because it looked manufactured, not made from scratch. And didn't taste much better either. Service was non existent. I would have taken another soda pop. But nobody ever came around to ask me if I wanted another. I would have liked to get a check. But after 5 minutes of waiting for someone to stop by and ask if I needed a check, I finally just walked away from my table, up to the counter. No service at all. Overall, not real impressed. But it was cheap. So I guess if you're looking for cheap - this is the place! SushiRestaurant JapaneseRestaurant</td>
+  </tr>
+  <tr>
+    <th>79</th>
+    <td>79</td>
+    <td>5.0</td>
+    <td>117964400840991496028</td>
+    <td>111197973120418964998</td>
+    <td>McCormick &amp; Schmick's Grill</td>
+    <td>Jim Lewis</td>
+    <td>We go here several times each year. Always excellent fresh, gourmet food. Always amazing, prompt service. Definitely one of the top restaurants in Portland. Restaurant SeafoodRestaurant SteakHouse</td>
+  </tr>
+  <tr>
+    <th>80</th>
+    <td>80</td>
+    <td>3.0</td>
+    <td>100411699807180780967</td>
+    <td>111197973120418964998</td>
+    <td>Golden Valley Brewery</td>
+    <td>Jim Lewis</td>
+    <td>We've been here several times. We were REALLY hoping we'd like this restaurant. Unfortunately, because of the food mainly, it's just mediocre. The atmosphere, I'd give it an A. Service, an A. Selection and taste of local beers, I'd give a B. But the food I would rate just a C. I've had both lunch and dinner there several times and I still have never really had a meal that I would consider gourmet. It was fresh, which I like. But the taste just wasn't there. I hate to say it, but they need a little better chef, a little better menu. More flavor. Seems like they try to hard to have unique combinations of food. But unique only works if it also tastes amazing. I wish their food was as good as everything else. Brewpub BanquetHall SteakHouse</td>
+  </tr>
+  <tr>
+    <th>81</th>
+    <td>81</td>
+    <td>5.0</td>
+    <td>106446512860238369129</td>
+    <td>111197973120418964998</td>
+    <td>Skyline Restaurant</td>
+    <td>Jim Lewis</td>
+    <td>I have been hearing rave reviews from locals in this area for years. But in the 14 years or so that I have been working in this area off and on (as a contractor) I have never bothered to stop in. I have to say it looks pretty run down from the outside. So that was one big reason I never stopped in. But today I needed a quick lunch and there was nothing else up in this area so I decided to stop by. I was surprised at how quaint and clean the restaurant is inside. Much nicer than I thought it would be, judging by the way it looks outside. Very clean. Very quick service. Great burger. The buns were very fresh, the hamburger was fresh and just off the grill. The rest of the ingredients seemed and tasted very fresh too. It was packed busy at 1:00 p.m. so I guess I'm not the only person who liked the place. I would come back again - and bring some others with me. AmericanRestaurant HamburgerRestaurant</td>
+  </tr>
+  <tr>
+    <th>82</th>
+    <td>82</td>
+    <td>2.0</td>
+    <td>110010372199928715299</td>
+    <td>111197973120418964998</td>
+    <td>Burgerville USA</td>
+    <td>Jim Lewis</td>
+    <td>I hesitate to give these guys a bad review because I love Burgerville so much and the service I get here is always fantastic - above and beyond. But aside from not having a drivethrough (which I can handle) and aside from being a small restaurant (which I am okay with as well, since they keep it pretty nice inside), the worst thing is the bathroom situation. The restrooms are outside and freezing cold. The toilet and sink were clean. But the walls were dingy and the water was freezing cold in an already cold and unpleasant restroom. For this reason alone I rated them only 2 stars. If they had nice indoor restrooms I would give it 4 or 5 stars. FastFoodRestaurant AmericanRestaurant HamburgerRestaurant</td>
+  </tr>
+  <tr>
+    <th>83</th>
+    <td>83</td>
+    <td>3.0</td>
+    <td>103859667965310334654</td>
+    <td>111197973120418964998</td>
+    <td>Jimmy John's Gourmet Sandwiches</td>
+    <td>Jim Lewis</td>
+    <td>I love the bread. That's the main good thing. But I will never go back to this location after two bad experiences in a row. One time the delivery driver totally cut me off in the parking lot, almost hitting my truck. When I mentioned it to the manager, the manager just shrugged it off and didn't even seen to care. He was aloof and condescending. It was obvious that the driver was his buddy. On my next visit the guy at the counter was extremely rude and sarcastic. I've never seen such rude and ill-mannered employees at any restaurant. The guys who work here are arrogant jerks and they don't deserve your business or mine. FastFoodRestaurant SandwichShop</td>
+  </tr>
+  <tr>
+    <th>84</th>
+    <td>84</td>
+    <td>2.0</td>
+    <td>106445904307081749148</td>
+    <td>111197973120418964998</td>
+    <td>Famous Dave's Bar-B-Que</td>
+    <td>Jim Lewis</td>
+    <td>I hate to give these guys a bad review because I love the ambiance and the food tastes great. But unfortunately, they put MSG in just about everything and I found out the hard way. I was sick for several hours after leaving. I won't be going back. BarbecueRestaurant Catering AmericanRestaurant</td>
+  </tr>
+  <tr>
+    <th>85</th>
+    <td>85</td>
+    <td>4.0</td>
+    <td>109927152286883097022</td>
+    <td>111197973120418964998</td>
+    <td>Ona Restaurant &amp; Lounge</td>
+    <td>Jim Lewis</td>
+    <td>First impression is excellent. Very nice decor inside and out. Great ambience. Crab cake appetizer was out-of-this-world, amazing. Our main lunch dishes were also excellent. Had fish and chips and tomato bisque with grilled cheese sandwich. Even though these dishes sound fairly plain, this restaurant's twist on then was nothing short of delicious and innovative. Even the coffee was gourmet. Unfortunately, the service was sub-par. We had to wait way to long to get our order in, too long for drinks, and service throughout the meal was slow or non-existent. This is unfortunate because everything else was A+. It wasn't really super busy so we couldn't figure out why service was so slow. Despite this, we both agreed that we'd definitely go back again. The food was worth it. I recommend this place highly, if only for the food and ambience. AmericanRestaurant</td>
+  </tr>
+  <tr>
+    <th>86</th>
+    <td>86</td>
+    <td>2.0</td>
+    <td>105173605658484579041</td>
+    <td>111197973120418964998</td>
+    <td>Giant Drive In</td>
+    <td>Jim Lewis</td>
+    <td>Wasn't too impressed. The hamburgers were good. Better than most but not the best I've ever had. No refills on drinks policy is pretty cheap and cheesy considering most all restaurants these days offer free refills. Overall, the restaurant was very small and run-down. Bathrooms outside and around the corner as if it was an old gas-station or something also gave me a very bad impression. The other thing that was pretty un-professional was the fact that they only take cash. You know who takes credit cards? Pretty much every restaurant in the world! Not sure why they don't here but it is kind of odd. I like the Tigard restaurant a little better but I probably wouldn't come back to this restaurant again. HamburgerRestaurant</td>
+  </tr>
+  <tr>
+    <th>87</th>
+    <td>87</td>
+    <td>4.0</td>
+    <td>108600421399875489223</td>
+    <td>111197973120418964998</td>
+    <td>Hawaiian Kine Bar-B-Q</td>
+    <td>Jim Lewis</td>
+    <td>Wow! What a great surprise! Good was really really good! Definitively will come back again! Fed or family of five for $38 too! Love it. BarbecueRestaurant</td>
+  </tr>
+  <tr>
+    <th>88</th>
+    <td>88</td>
+    <td>3.0</td>
+    <td>112651680568027010829</td>
+    <td>111197973120418964998</td>
+    <td>Hapa Grill</td>
+    <td>Jim Lewis</td>
+    <td>Food is above average. Decor is okay. I'd rate them higher if I wasn't sitting here being forced to listen to annoying rap music while eating. Annoying as all hell. AsianRestaurant HawaiianRestaurant</td>
+  </tr>
+  <tr>
+    <th>89</th>
+    <td>89</td>
+    <td>1.0</td>
+    <td>103423872137306431641</td>
+    <td>111197973120418964998</td>
+    <td>Lowe's Home Improvement</td>
+    <td>Jim Lewis</td>
+    <td>Honestly, I don't know how these guys stay in business. Waited on the phone for 45 minutes and they kept saying, "I'm sorry. They didn't answer??? Let me try that department again." Absolutely appalling. HomeImprovementStore LumberStore</td>
+  </tr>
+  <tr>
+    <th>90</th>
+    <td>90</td>
+    <td>2.0</td>
+    <td>112713111738842381345</td>
+    <td>111197973120418964998</td>
+    <td>Lum-Yuen Restaurant</td>
+    <td>Jim Lewis</td>
+    <td>Disgusting. If you enjoy fresh, gourmet food then don't stop here. The hot &amp; sour soup didn't taste right at all, the appetizers were all deep fried and nasty. The Kung Pao tasted nothing like any Kung Pao I've ever had. The pineapple in the pineapple chicken was straight out of a can and the chicken tasted bad. They offered us fried rice or white rice with the meal. Unfortunately, I chose fried rice and it was nothing more than regular rice with soy sauce in it. It didn't look or taste anything like fried rice. I wish I could say something good about this place, but there honestly wasn't anything good about the experience. We didn't get the impression that any of the food was fresh. It was all just wrong. ChineseRestaurant</td>
+  </tr>
+  <tr>
+    <th>91</th>
+    <td>91</td>
+    <td>5.0</td>
+    <td>104081582052116084572</td>
+    <td>111197973120418964998</td>
+    <td>Salars Mediterranean Grill</td>
+    <td>Jim Lewis</td>
+    <td>The food is absolutely incredible! Delicious, fresh, gourmet. Decor is equally beautiful. Sometimes they are understaffed. But worth the wait nonetheless. AsianRestaurant EuropeanRestaurant MediterraneanRestaurant</td>
+  </tr>
+  <tr>
+    <th>92</th>
+    <td>92</td>
+    <td>5.0</td>
+    <td>112758233426032358375</td>
+    <td>111197973120418964998</td>
+    <td>L&amp;L Hawaiian Barbecue</td>
+    <td>Jim Lewis</td>
+    <td>We stopped by and picked up 4 different traditional "plate lunch" meals for our family for dinner. Every one of them was EXCELLENT! Just like the plate lunch restaurant we love so much in Maui. If you like the food at Nohos you'd like the food here. Very authentic and very good without being too sweet. This is our new fav. for hawaiian food in Beaverton. Restaurant AmericanRestaurant HawaiianRestaurant</td>
+  </tr>
+  <tr>
+    <th>93</th>
+    <td>93</td>
+    <td>5.0</td>
+    <td>110864889964667973890</td>
+    <td>113240887538164988342</td>
+    <td>Delivered Dish | Portland, OR</td>
+    <td>Nicole Pyles</td>
+    <td>I have used this service twice now and I think it's one of the best food delivery services in Portland. First of all, they let you select from menus from all around your neighborhood and the prices are decent even though they do charge you a delivery fee (plus tip). I highly recommend following their Facebook page (or even taking a quick peak at it) before you order because they usually post coupons on a daily basis (I was able to get $5 off my order because of a coupon code found on Facebook!). The only downside is the food isn't piping hot when it gets to you, but that is heavily outweighed by the benefits of having something to order that isn't pizza or crappy chinese food. DeliveryRestaurant EventPlanner BusinesstoBusinessService</td>
+  </tr>
+  <tr>
+    <th>94</th>
+    <td>94</td>
+    <td>2.0</td>
+    <td>115990897751200684384</td>
+    <td>113240887538164988342</td>
+    <td>Hall Street Grill</td>
+    <td>Nicole Pyles</td>
+    <td>YIKES. I'm surprised this place got so many reviews. First of all, don't seat in the main dining area. I'm pretty sure I missed the fun because I didn't enjoy happy hour. This place is way overpriced and it was pretty empty when I went, so I can't be the only one to think so. The appetizers are okay, but I just didn't know what to order for the main dish. I will go back for the happy hour, maybe, but overall, I just wasn't impressed. AmericanRestaurant</td>
+  </tr>
+  <tr>
+    <th>95</th>
+    <td>95</td>
+    <td>4.0</td>
+    <td>102117745883700827831</td>
+    <td>113240887538164988342</td>
+    <td>Staples</td>
+    <td>Nicole Pyles</td>
+    <td>For office supply stores, I really like this one. They've also fixed my computer a couple of times and they are very trustworthy. For prices, they have excellent deals and you can find just about anything in there. It usually isn't crowded until Christmas time or during school shopping seasons. OfficeSupplyStore</td>
+  </tr>
+  <tr>
+    <th>96</th>
+    <td>96</td>
+    <td>5.0</td>
+    <td>107762553597304912662</td>
+    <td>113240887538164988342</td>
+    <td>Powell's City of Books Cafe</td>
+    <td>Nicole Pyles</td>
+    <td>What can you say about one of Portland's icons? Like so many other people have said, Powell's Books is truly a legendary bookstore. If you can't find the book you want here, you aren't looking. It has everything from bestsellers to obscure prints and almost every subject is represented. It's got a used bookstore feel to it so you aren't clogged by the perfect lighting and layout that you find in places like Barnes and Nobles. Probably the only downside is that there isn't a lot of seating anywhere, but where could they put the chairs? This place is wall to wall books. This is a must-stop for anyone who is visiting the city. BookStore UsedBookStore</td>
+  </tr>
+  <tr>
+    <th>97</th>
+    <td>97</td>
+    <td>2.0</td>
+    <td>110606798623523846151</td>
+    <td>113240887538164988342</td>
+    <td>Gustav's German Pub &amp; Grill</td>
+    <td>Nicole Pyles</td>
+    <td>The last time I went here it wasn't a good experience. The sandwich gushed and it was really gross to see the mess in the middle of the sausage mush out like it was wrapped in plastic. I don't recommend this place really, although they have great mustard selection. They do have a nice ambiance, so if you can overlook the other stuff, you may think it's okay. GermanRestaurant FamilyRestaurant</td>
+  </tr>
+  <tr>
+    <th>98</th>
+    <td>98</td>
+    <td>4.0</td>
+    <td>118365027969699237344</td>
+    <td>113240887538164988342</td>
+    <td>Deschutes Brewery</td>
+    <td>Nicole Pyles</td>
+    <td>This is one of the restaurants that are a must stop place in Portland. Another place with excellent beer, good food, and a great crowd. This restaurant handles crowds very well, especially considering most people cram themselves into the bar area. Better yet, if you happen to wander in during lunch time, you are more than likely not going to have trouble getting a seat. They also have a VERY good gluten-free section and I love their salads (this inspired me to start squeezing lemon on my salad). Brewpub Brewery</td>
+  </tr>
+  <tr>
+    <th>99</th>
+    <td>99</td>
+    <td>4.0</td>
+    <td>103308284474918533744</td>
+    <td>113240887538164988342</td>
+    <td>Thirsty Lion Pub &amp; Grill - Downtown</td>
+    <td>Nicole Pyles</td>
+    <td>Talk about crowded! It's a restaurant that feels like a pub, and the only downside is that it's regularly crowded. You WILL have one heck of a wait so prepare in advance. They aren't big on gluten free items. Every week they have a black bean soup that is excellent - get there early to order it though, because if you are there late, it WILL be gone. The kung pao chicken is so good and worth the red face. SportsBar Bar&amp;Grill AmericanRestaurant</td>
+  </tr>
+</tbody>
+</table>
+                </body>
+              
+              
